@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hackathon_MageBehatExample1>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Hackathon_MageBehatExample1>
+    </modules>    
+</config>

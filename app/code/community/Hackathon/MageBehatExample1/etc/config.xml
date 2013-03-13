@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hackathon_MageBehatExample1>
+            <version>0.0.1</version>
+        </Hackathon_MageBehatExample1>
+    </modules>
+    <global>
+        <blocks>
+            <magebehattest1>
+                <class>Hackathon_MageBehatExample1_Block</class>
+            </magebehattest1>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <magebehat>
+                    <file>magebehatexample1.xml</file>
+                </magebehat>
+            </updates>
+        </layout>
+    </frontend>
+</config>
