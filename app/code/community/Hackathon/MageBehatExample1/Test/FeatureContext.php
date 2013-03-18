@@ -7,8 +7,8 @@ class Hackathon_MageBehatExample1_Test_FeatureContext extends \Behat\MinkExtensi
      */
     public function iShouldBeAbleToClickAPoll()
     {
-        $this->getSession()->getDriver()->click('Price Rules');
-        $this->getSession()->getDriver()->click('Vote');
+        $this->getMainContext()->selectOption('vote', 6); //'Price Rules'
+        $this->getSession()->getPage()->pressButton('Vote');
 
     }
 }

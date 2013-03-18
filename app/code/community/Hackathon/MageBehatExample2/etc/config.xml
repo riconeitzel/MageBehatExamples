@@ -16,7 +16,7 @@
         <layout>
             <updates>
                 <magebehat>
-                    <file>magebehatexample1.xml</file>
+                    <file>magebehatexample2.xml</file>
                 </magebehat>
             </updates>
         </layout>
