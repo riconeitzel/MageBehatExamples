@@ -15,9 +15,9 @@
     <frontend>
         <layout>
             <updates>
-                <magebehat>
+                <magebehat2>
                     <file>magebehatexample2.xml</file>
-                </magebehat>
+                </magebehat2>
             </updates>
         </layout>
     </frontend>
